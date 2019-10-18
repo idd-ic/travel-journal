@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Fascinate+Inline&display=swap');
+
+:root {
+    --fontA: 'Dancing Script', serif;
+    --fontB: 'Fascinate Inline', sans serif;
+}
+
+header {
+    background-color: rgba(20, 20, 20, 0.986);
+    padding: 1.5em;
+    color: whitesmoke;
+}
+h1 {
+    font-family: var(--fontB);
+    font-size: 1em;
+    text-align: center;
+}
+.city-name {
+    font-family: var(--fontA);
+    font-size: 1.5em;
+    position: absolute;
+    left: 45%;
+    margin-top: 25%;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+img {
+    height: 60vw;
+    width: 100vw;
+}
+img:hover {
+    color: rgba(22, 22, 22, 0.589);
+}
