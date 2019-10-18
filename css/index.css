@@ -31,5 +31,5 @@ img {
     width: 100vw;
 }
 img:hover {
-    color: rgba(22, 22, 22, 0.589);
+    background-color: rgba(22, 22, 22, 0.589);
 }
